@@ -1,5 +1,7 @@
 # JavaLabs
 Java laboratories
 
-Firs lab and solution
+Firs lab and solutions for that lab
+
+Second lab
 
