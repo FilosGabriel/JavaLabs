@@ -3,5 +3,6 @@ Java laboratories
 
 Firs lab and solutions for that lab
 
-Second lab
+Second lab first problem
+
 
