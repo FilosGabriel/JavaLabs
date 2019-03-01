@@ -2,7 +2,7 @@ package ex1;
 
 import java.time.LocalDate;
 
-public class Essay extends Project {
+class Essay extends Project {
     private Topics topic;
 
     public Essay(String name, LocalDate deadline, Topics topic) {

@@ -25,11 +25,23 @@ public class Student {
     public void setYearOfStudy(int yearOfStudy) {
         this.yearOfStudy = yearOfStudy;
     }
-//    se seteaza preferintele studentului
+
+	//    the student's preferences are set
     public  void setPreferinte(Project ... args){
     	preferinte=new Project[args.length];
-    	for(int i=0;i<args.length;i++){
-    		preferinte[i]=args[i];
+		boolean uniqueProject = true;
+		for (int index = 0; index < args.length; index++) {
+			uniqueProject = true;
+			for (int j = 0; j < index; j++) {
+				if (args[index].equals(args[j])) {
+					uniqueProject = false;
+					System.out.println("!!!The project " + args[index].getName() + " is duplicated for student " + args[index].getName() + ", so is ignoreted!!!");
+				}
+			}
+			if (uniqueProject) {
+
+				preferinte[index] = args[index];
+			}
 		}
 	}
 	public Project[] getPreferinte(){

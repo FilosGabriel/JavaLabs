@@ -1,7 +1,6 @@
 package ex1;
 
 import java.time.LocalDate;
-import java.util.Date;
 
 public abstract class Project {
 	protected String name;
@@ -28,11 +27,22 @@ public abstract class Project {
 		this.deadline = deadline;
 	}
 
-	public boolean equals(Project project) {
-		if (!this.name.equals(project.name))
+	//Overriding equals() to compare two Complex objects
+	@Override
+	public boolean equals(Object project) {
+		// If the object is compared with itself then return true
+		if (project == this) {
+			return true;
+		}
+		 /* Check if o is an instance of Project or not
+          "null instanceof [type]" also returns false */
+		if (!(project instanceof Project)) {
 			return false;
-		return !this.deadline.equals(project.deadline);
-
+		}
+		// typecast o to Complex so that we can compare data members
+		Project project1 = (Project) project;
+		// Compare the data members and return accordingly
+		return this.name.equals(project1.getName());
 	}
 
 }

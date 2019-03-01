@@ -1,28 +1,27 @@
 package  ex1;
-public  class  Problem {
-	Student[] studenti;
+
+class Problem {
+	private Student[] studenti;
 	public  void setStudenti(Student ... args){
 		studenti=new Student[args.length];
-		for(int i=0;i<args.length;i++){
-			studenti[i]=args[i];
-		}
+		System.arraycopy(args, 0, studenti, 0, args.length);
 	}
 	@Override
 	public String toString(){
-		String afisare=new String();
-		afisare="+-----------------------------+\n|Student preferences          |\n+-----------------------------+\n";
-		for(int i =0;i<studenti.length;i++){
-			Project [] preferinteStudent=new Project[studenti[i].getPreferinte().length];
-			preferinteStudent=studenti[i].getPreferinte();
-			afisare+="|"+studenti[i].getName()+":(";
-			afisare+=preferinteStudent[0].getName();
-			for(int j=1;j<preferinteStudent.length;j++){
-				afisare+=","+preferinteStudent[j].getName();
+		StringBuffer ouput = new StringBuffer();
+		ouput.append("\n\n+-----------------------------+\n|Student preferences          |\n+-----------------------------+\n");
+		for (Student elev : studenti) {
+			Project[] preferinteStudent;
+			preferinteStudent = elev.getPreferinte();
+			ouput.append("|").append(elev.getName()).append(":(").append(preferinteStudent[0].getName());
+			for (Project preferinta : preferinteStudent) {
+				if (preferinta != null) {
+					ouput.append("," + preferinta.getName());
+				}
 			}
-		afisare+=")\n";
-			afisare+="+-----------------------------+\n";
+			ouput.append(")\n+-----------------------------+\n");
 		}
-		return afisare;
+		return ouput.toString();
 	}
 
 	public Project[] getProject() {
