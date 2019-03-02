@@ -30,4 +30,16 @@ class Problem {
 
 		return preferedProjects;
 	}
+//	public Project[] getProjcts(){
+//		Project [] proiecteUnice;
+//		for (Student student:studenti) {
+//			for (int j=0;i<student.l) {
+//				for (int i = 0; i <proiect. ; i++) {
+//
+//				}
+//			}
+//
+//		}
+//	}
+
 }
