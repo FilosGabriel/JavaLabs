@@ -1,10 +1,15 @@
 package ex1;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.Objects;
 
 public class Student {
     private String name;
-	private Project[] preferinte;
+//	private Project[] preferinte;
+	private List<Project> preferinte=new ArrayList<Project>();
+	private int  numberOfPreferinte=0;
     private int yearOfStudy;
 
     public Student(String name, int yearOfStudy) {
@@ -44,7 +49,7 @@ public class Student {
 		if (args.length == 0) {
 			System.out.println("Stuedent " + this.getName() + " has no preferences.");
 		} else {
-			preferinte = new Project[args.length];
+//			preferinte = new Project[args.length];
 			boolean uniqueProject = true;
 			for (int index = 0; index < args.length; index++) {
 				uniqueProject = true;
@@ -57,13 +62,17 @@ public class Student {
 				}
 				if (uniqueProject) {
 
-					preferinte[index] = args[index];
+//					preferinte[index] = args[index];
+					preferinte.add(args[index]);
+					numberOfPreferinte++;
 				}
 			}
 		}
 	}
-	public Project[] getPreferinte(){
-        return preferinte;
+	public List<Project> getPreferinte(){
+//		System.out.println(preferinte.size());
+//        return preferinte;
+        return preferinte  == null ? Collections.EMPTY_LIST : preferinte;
     }
 
     @Override
