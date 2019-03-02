@@ -5,7 +5,7 @@ import java.util.List;
 
 class Problem {
 	private Student[] studenti;
-	public  void setStudenti(Student ... args){	
+	public  void setStudenti(Student ... args){
 		studenti=new Student[args.length];
 		boolean uniqueStudent;
 		for (int index = 0; index < args.length; index++)
@@ -58,4 +58,39 @@ class Problem {
 			}
 		return preferedProjects;
 	}
+
+	private List<Project> neightborOf(Student studentul1,Student student2){
+		List<Project> projects=new ArrayList<Project>();
+		for (Project proiect:studentul1.getPreferinte()) {
+			projects.add(proiect);
+		}
+		for (Project proiect:student2.getPreferinte()) {
+			boolean isDuplicate=false;
+			for (int i = 0; i <projects.size() ; i++) {
+				if(proiect.equals(projects.get(i))){
+					isDuplicate=true;
+					break;
+				}
+			}
+			if(!isDuplicate){
+				projects.add(proiect);
+			}
+		}
+		return projects;
+	}
+
+	public boolean isPossibleToAllocateProjects(){
+		for (int i = 0; i <studenti.length ; i++) {
+			if(studenti[i]!=null){
+				for(int j=i+1;j<studenti.length;j++){
+					if(2>neightborOf(studenti[i],studenti[j]).size()){
+						return false;
+					}
+				}
+			}
+
+		}
+		return  true;
+	}
+
 }
