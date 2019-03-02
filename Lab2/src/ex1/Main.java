@@ -25,5 +25,10 @@ public class Main {
 		Problem problem = new Problem();
 		problem.setStudenti(s1, s2, s3, s4);
 		System.out.println(problem);
+		problem.setStudenti(s1, s1);
+		//System.out.println(problem); - da eroare cand afisezi o problema cu acelasi student de mai multe ori
+		Project[] proj = s1.getPreferinte();
+		//for (int i=0; i<proj.length; i++)
+			//System.out.println(proj[i].getName()+' '+proj[i].getDeadline()); - da eroare cand afisezi preferintele unui student cu aceasi preferinta de 2 ori
 	}
 }

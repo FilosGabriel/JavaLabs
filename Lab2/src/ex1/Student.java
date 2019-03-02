@@ -1,5 +1,7 @@
 package ex1;
 
+import java.util.Objects;
+
 public class Student {
     private String name;
 	private Project[] preferinte;
@@ -35,7 +37,7 @@ public class Student {
 			for (int j = 0; j < index; j++) {
 				if (args[index].equals(args[j])) {
 					uniqueProject = false;
-					System.out.println("!!!The project " + args[index].getName() + " is duplicated for student " + args[index].getName() + ", so is ignoreted!!!");
+					System.out.println("!!!The project " + args[index].getName() + " is duplicated for student " + args[index].getName() + ", so is ignored!!!");
 				}
 			}
 			if (uniqueProject) {
@@ -54,6 +56,15 @@ public class Student {
                 "name='" + name + '\'' +
                 ", yearOfStudy=" + yearOfStudy +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) { //am generat-o cu alt+enter si i-am scos comparatia dintre preferinte
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Student student = (Student) o;
+        return yearOfStudy == student.yearOfStudy &&
+                Objects.equals(name, student.name);
     }
 }
 
