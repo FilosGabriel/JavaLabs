@@ -5,7 +5,8 @@ import java.time.LocalDate;
 public abstract class Project {
 	protected String name;
 	protected LocalDate deadline;
-
+	protected int id;
+	protected static int idProject=0;
 	public Project(String name, LocalDate deadline) {
 		this.name = name;
 		this.deadline = deadline;
@@ -26,6 +27,7 @@ public abstract class Project {
 	public void setDeadline(LocalDate deadline) {
 		this.deadline = deadline;
 	}
+	protected int getIdProject(){return idProject;}
 
 	//Overriding equals() to compare two Complex objects
 	@Override

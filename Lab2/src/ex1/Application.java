@@ -8,6 +8,8 @@ public class Application extends Project {
     public Application(String name, LocalDate deadline, Languages language) {
         super(name, deadline);
         this.language = language;
+        id=idProject;
+        idProject++;
     }
 
     public Languages getLanguage() {

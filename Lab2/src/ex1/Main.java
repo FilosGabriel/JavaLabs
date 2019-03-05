@@ -17,20 +17,25 @@ public class Main {
 		Essay e1 = new Essay("E1", LocalDate.parse("2019-06-01"), Topics.ALGORITHMS);
 
 
-		s1.setPreferinte(a1, a3);
-		s2.setPreferinte(a1, e1);
-		s3.setPreferinte(a1);
+		s1.setPreferinte(a1,a3);
+		s2.setPreferinte(a1,e1);
+		s3.setPreferinte(a1,a2);
 		s4.setPreferinte(a1);
 
 		Problem problem = new Problem();
-		problem.setStudenti(s1, s2, s3, s4);
-		System.out.println(problem);
+		problem.setStudenti(s1, s2, s3,s4);
+//		System.out.println(problem);
 //		problem.setStudenti(s1, s1);
-		for (Project p:problem.getProject()) {
-			System.out.print(p.getName()+" ");
-		}
+//		for (Project p:problem.getProject()) {
+//			System.out.print(p.getName()+" ");
+//		}
 		System.out.println("");
-		System.out.println(problem.isPossibleToAllocateProjects());
+		Solver solver=new Solver(problem);
+//		System.out.println(solver.isPossibleToAllocateProjects());
+//		Solver solver1=new Solver(problem);
+//		solver.fordFulkersonSolver();
+		System.out.println( solver.greadySolver());
+
 		//System.out.println(problem); - da eroare cand afisezi o problema cu acelasi student de mai multe ori
 //		Project[] proj = s1.getPreferinte();
 		//for (int i=0; i<proj.length; i++)

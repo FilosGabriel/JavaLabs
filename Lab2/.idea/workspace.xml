@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="badad9c5-5732-4352-a17e-319769f390a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ex1/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex1/Solver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex1/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex1/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex1/Essay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex1/Essay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ex1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex1/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex1/Problem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex1/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex1/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex1/Student.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,38 +20,49 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.36436498">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/ex1/Student.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
+                <state relative-caret-position="-7">
+                  <caret line="60" column="30" selection-start-line="60" selection-end-line="61" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#220#229#0" expanded="true" />
                     <element signature="method#setPreferinte#0;class#Student#0" expanded="true" />
-                    <element signature="method#toString#0;class#Student#0" expanded="true" />
-                    <element signature="method#equals#0;class#Student#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/ex1/Problem.java">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ex1/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="545">
-                  <caret line="88" column="17" lean-forward="true" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+                <state>
+                  <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/ex1/Solver.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="451">
+                  <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="method#setStudenti#0;class#Problem#0" expanded="true" />
-                    <element signature="method#toString#0;class#Problem#0" expanded="true" />
-                    <element signature="method#getProject#0;class#Problem#0" expanded="true" />
-                    <element signature="e#1581#1590#0" expanded="true" />
-                    <element signature="method#neightborOf#0;class#Problem#0" expanded="true" />
-                    <element signature="e#2083#2092#0" expanded="true" />
+                    <element signature="docComment;method#Solver#0;class#Solver#0" expanded="true" />
+                    <element signature="method#Solver#0;class#Solver#0" expanded="true" />
+                    <element signature="docComment;method#projectsOf#0;class#Solver#0" expanded="true" />
+                    <element signature="method#projectsOf#0;class#Solver#0" expanded="true" />
+                    <element signature="docComment;method#isPossibleToAllocateProjects#0;class#Solver#0" expanded="true" />
+                    <element signature="method#isPossibleToAllocateProjects#0;class#Solver#0" expanded="true" />
+                    <element signature="method#getIndexProjrct#0;class#Solver#0" expanded="true" />
+                    <element signature="method#transformToNetworkFlow#0;class#Solver#0" expanded="true" />
+                    <element signature="method#isPossibleAMatching#0;class#Solver#0" expanded="true" />
+                    <element signature="method#fordFulkersonSolver#0;class#Solver#0" expanded="true" />
+                    <element signature="method#greadySolver#0;class#Solver#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -52,12 +71,26 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/ex1/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="690">
-                  <caret line="31" column="65" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
+                <state relative-caret-position="-7">
+                  <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/ex1/Solution.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="432">
+                  <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="method#Solution#0;class#Solution#0" expanded="true" />
+                    <element signature="method#addToSolution#0;class#Solution#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -74,6 +107,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>out</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
@@ -83,12 +121,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/ex1/Languages.java" />
         <option value="$PROJECT_DIR$/src/ex1/Topics.java" />
+        <option value="$PROJECT_DIR$/src/ex1/Topics.java" />
+        <option value="$PROJECT_DIR$/src/ex1/Project.java" />
         <option value="$PROJECT_DIR$/src/ex1/Project.java" />
         <option value="$PROJECT_DIR$/src/ex1/Application.java" />
         <option value="$PROJECT_DIR$/src/ex1/Essay.java" />
-        <option value="$PROJECT_DIR$/src/ex1/Topics.java" />
         <option value="$PROJECT_DIR$/src/ex1/Essay.java" />
-        <option value="$PROJECT_DIR$/src/ex1/Project.java" />
         <option value="$PROJECT_DIR$/src/ex1/Student.java" />
         <option value="$PROJECT_DIR$/src/ex1/Student.java" />
         <option value="$PROJECT_DIR$/src/ex1/Problem.java" />
@@ -97,14 +135,15 @@
         <option value="$PROJECT_DIR$/src/ex1/Main.java" />
         <option value="$PROJECT_DIR$/src/ex1/Main.java" />
         <option value="$PROJECT_DIR$/src/ex1/Main.java" />
+        <option value="$PROJECT_DIR$/src/ex1/Solution.java" />
+        <option value="$PROJECT_DIR$/src/ex1/Solver.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="896" />
-    <option name="y" value="34" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -139,13 +178,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551549899317" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551732422991" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -192,8 +231,8 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4940669" visible="true" weight="0.050666668" />
-      <window_info id="Structure" order="1" sideWeight="0.5059331" side_tool="true" visible="true" weight="0.050666668" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4934896" visible="true" weight="0.0496" />
+      <window_info id="Structure" order="1" sideWeight="0.50651044" side_tool="true" weight="0.050666668" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -201,7 +240,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.031347964" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.06896552" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39916405" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -223,8 +262,8 @@
       <window_info anchor="right" id="Key Promoter X" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15191898" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4934896" visible="true" weight="0.17813334" />
+      <window_info id="Structure" order="1" sideWeight="0.50651044" side_tool="true" weight="0.050666668" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -232,14 +271,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28526646" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39916405" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.037617553" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.30407524" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3291536" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -248,6 +289,8 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven" order="7" />
+      <window_info anchor="right" id="Codota" order="8" />
+      <window_info anchor="right" id="Key Promoter X" order="9" />
     </layout-to-restore>
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -278,14 +321,14 @@
     <entry file="file://$PROJECT_DIR$/src/ex1/Project.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ex1/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        <state relative-caret-position="253">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="11" selection-end-column="20" />
           <folding>
             <element signature="e#304#305#0" expanded="true" />
             <element signature="e#335#336#0" expanded="true" />
@@ -297,45 +340,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ex1/Essay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex1/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#220#229#0" expanded="true" />
-            <element signature="method#setPreferinte#0;class#Student#0" expanded="true" />
-            <element signature="method#toString#0;class#Student#0" expanded="true" />
-            <element signature="method#equals#0;class#Student#0" expanded="true" />
+            <element signature="method#Essay#0;class#Essay#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ex1/Problem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="88" column="17" lean-forward="true" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+        <state relative-caret-position="203">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#setStudenti#0;class#Problem#0" expanded="true" />
             <element signature="method#toString#0;class#Problem#0" expanded="true" />
-            <element signature="method#getProject#0;class#Problem#0" expanded="true" />
-            <element signature="e#1581#1590#0" expanded="true" />
-            <element signature="method#neightborOf#0;class#Problem#0" expanded="true" />
-            <element signature="e#2083#2092#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex1/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="60" column="30" selection-start-line="60" selection-end-line="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setPreferinte#0;class#Student#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ex1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="31" column="65" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
+        <state>
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex1/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Solution#0;class#Solution#0" expanded="true" />
+            <element signature="method#addToSolution#0;class#Solution#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex1/Solver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#Solver#0;class#Solver#0" expanded="true" />
+            <element signature="method#Solver#0;class#Solver#0" expanded="true" />
+            <element signature="docComment;method#projectsOf#0;class#Solver#0" expanded="true" />
+            <element signature="method#projectsOf#0;class#Solver#0" expanded="true" />
+            <element signature="docComment;method#isPossibleToAllocateProjects#0;class#Solver#0" expanded="true" />
+            <element signature="method#isPossibleToAllocateProjects#0;class#Solver#0" expanded="true" />
+            <element signature="method#getIndexProjrct#0;class#Solver#0" expanded="true" />
+            <element signature="method#transformToNetworkFlow#0;class#Solver#0" expanded="true" />
+            <element signature="method#isPossibleAMatching#0;class#Solver#0" expanded="true" />
+            <element signature="method#fordFulkersonSolver#0;class#Solver#0" expanded="true" />
+            <element signature="method#greadySolver#0;class#Solver#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
