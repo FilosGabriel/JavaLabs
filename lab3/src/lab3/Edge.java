@@ -7,6 +7,7 @@ public class Edge {
     private boolean twoWay;
 
     public Edge(Node node1, Node node2, int weight) {
+        //Verificam daca costul  e pozitiv
         if (weight >= 0) {  //Ma gandeam ca nu e ok sa initializezi o muchie fara cost si de aia daca e negativ nu initializez deloc muchia
             this.node1 = node1;
             this.node2 = node2;
