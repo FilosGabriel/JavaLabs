@@ -8,6 +8,8 @@ class Essay extends Project {
     public Essay(String name, LocalDate deadline, Topics topic) {
         super(name, deadline);
         this.topic = topic;
+        id=idProject;
+        idProject++;
     }
 
     public Topics getTopic() {

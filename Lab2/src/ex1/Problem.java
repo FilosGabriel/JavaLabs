@@ -5,6 +5,7 @@ import java.util.List;
 
 class Problem {
 	private Student[] studenti;
+	private  boolean[][] matrixForNetworkFlow;
 	public  void setStudenti(Student ... args){
 		studenti=new Student[args.length];
 		boolean uniqueStudent;
@@ -12,7 +13,8 @@ class Problem {
 		{
 			uniqueStudent = true;
 			for (int j=0; j<index; j++)
-				if (args[index].equals(args[j])) //verific daca studentii sunt diferiti
+				//verific daca studentii sunt diferiti
+				if (args[index].equals(args[j]))
 				{
 					uniqueStudent = false;
 					System.out.println("!!!The student " + args[index].getName() + " is duplicated for problem " + args[index].getName() + ", so is ignored!!!");
@@ -42,12 +44,12 @@ class Problem {
 		List<Project> preferedProjects=new ArrayList<Project>();
 		for (Student student:studenti) {
 				if(student!=null){
-					System.out.println(student.getName());
 					for (Project proiect:student.getPreferinte()) {
 						boolean isDuplicate=false;
 						for( int i=0;i<preferedProjects.size();i++){
 							if(preferedProjects.get(i).equals(proiect)){
 								isDuplicate=true;
+								break;
 							}
 						}
 						if(!isDuplicate){
@@ -59,38 +61,7 @@ class Problem {
 		return preferedProjects;
 	}
 
-	private List<Project> neightborOf(Student studentul1,Student student2){
-		List<Project> projects=new ArrayList<Project>();
-		for (Project proiect:studentul1.getPreferinte()) {
-			projects.add(proiect);
-		}
-		for (Project proiect:student2.getPreferinte()) {
-			boolean isDuplicate=false;
-			for (int i = 0; i <projects.size() ; i++) {
-				if(proiect.equals(projects.get(i))){
-					isDuplicate=true;
-					break;
-				}
-			}
-			if(!isDuplicate){
-				projects.add(proiect);
-			}
-		}
-		return projects;
+	public  Student[] getStudenti(){
+		return studenti;
 	}
-
-	public boolean isPossibleToAllocateProjects(){
-		for (int i = 0; i <studenti.length ; i++) {
-			if(studenti[i]!=null){
-				for(int j=i+1;j<studenti.length;j++){
-					if(2>neightborOf(studenti[i],studenti[j]).size()){
-						return false;
-					}
-				}
-			}
-
-		}
-		return  true;
-	}
-
 }
