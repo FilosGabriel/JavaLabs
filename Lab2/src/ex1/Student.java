@@ -73,5 +73,6 @@ public class Student {
         return yearOfStudy == student.yearOfStudy &&
                 Objects.equals(name, student.name);
     }
+
 }
 

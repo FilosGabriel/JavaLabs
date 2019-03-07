@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"ex1","l":"Application"},{"p":"ex1","l":"Essay"},{"p":"ex1","l":"Languages"},{"p":"ex1","l":"Main"},{"p":"ex1","l":"Problem"},{"p":"ex1","l":"Project"},{"p":"ex1","l":"Solution"},{"p":"ex1","l":"Solver"},{"p":"ex1","l":"Student"},{"p":"ex1","l":"Topics"}]

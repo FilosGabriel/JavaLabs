@@ -11,19 +11,20 @@ public class Solver {
 	private  List<Boolean> seen;
 //	private  boolean[][] matrixNetwork;
 	private  List<Boolean> matrixNetwork;
-	private  int numberOfStudents;
 	private List<Integer> match;
-	private List<Integer> seenGreedy;
 
+	
+	private List<Integer> seenGreedy;
+	private  int numberOfStudents;
+	private  int numberProjects;
 	/**
 	 * @param inputProblem The problem class that contain students and projects
 	 */
 	Solver(Problem inputProblem){
 		problema=inputProblem;
+		numberOfStudents=inputProblem.getStudenti().length;
+		numberProjects=inputProblem.getProject().size();
 		listOfProjects=problema.getProject();
-		seen=new ArrayList<Boolean>(Collections.nCopies(listOfProjects.size(),false));
-		numberOfStudents=problema.getStudenti().length;
-		matrixNetwork=new ArrayList<>(Collections.nCopies(numberOfStudents*listOfProjects.size(),false));
 	}
 
 	/**
@@ -69,70 +70,18 @@ public class Solver {
 		return  true;
 	}
 
-
-	/**
-	 * @param project A Project class
-	 * @return
-	 */
-	private int getIndexProjrct(Project project) {
+	private int getIndexProject(Project project) {
 		int index = 0;
 		for (Project project2 : listOfProjects){
 			if (project.equals(project2)) {
 //				System.out.println(index);
 				return index;
 			}
-		index++;
-	}
-	return  -1;
-	}
 
-	private void transformToNetworkFlow(){
-		int indexStudent=0;
-		for (Student student :problema.getStudenti()) {
-			for(Project project:student.getPreferinte()){
-			matrixNetwork.set(indexStudent*numberOfStudents+getIndexProjrct(project),true);
-			}
-			indexStudent++;
+			index++;
 		}
+		return  index;
 	}
-
-	private boolean isPossibleAMatching(int student){
-		for (int project=0;project<listOfProjects.size();project++){
-			if(matrixNetwork.get(student*numberOfStudents+project) && !seen.get(project)  ) {
-				seen.set(project,true);
-				if(match.get(project)<0 ||  isPossibleAMatching(match.get(project)) ){
-					match.set(project,student);
-					return true;
-				}
-			}
-		}
-		return  false;
-	}
-
-
-
-	public  Solution fordFulkersonSolver(){
-		Solution solution=new Solution("fordFulkersonSolver");
-		int result=1;
-		transformToNetworkFlow();
-		System.out.println(listOfProjects);
-		System.out.println(matrixNetwork);
-
-		match=new ArrayList<Integer>(Collections.nCopies(listOfProjects.size(),-1));
-		for(int student=0;student<numberOfStudents;student++){
-			if(isPossibleAMatching(student)){
-				result++;
-			}
-		}
-		System.out.println(result);
-		System.out.println(match);
-		return solution;
-	}
-
-
-
-
-
 
 	public Solution greadySolver(){
 		Solution solution=new Solution("GreadySolver");
@@ -140,8 +89,8 @@ public class Solver {
 		int i=1;
 		for (Student student:problema.getStudenti()) {
 			for(Project project:student.getPreferinte()){
-				if(seenGreedy.get(getIndexProjrct(project))<0){
-					seenGreedy.set(getIndexProjrct(project),i);
+				if(seenGreedy.get(getIndexProject(project))<0){
+					seenGreedy.set(getIndexProject(project),i);
 					solution.addToSolution(student,project);
 					break;
 				}
@@ -150,6 +99,28 @@ public class Solver {
 		}
 //		System.out.println(seenGreedy);
 		return  solution;
+	};
+	private  Solution transformToSolution(List<Integer> list){
+		Solution solution=new Solution("HopcroftKarp");
+		int numberStudent=0;
+		for(Student student:problema.getStudenti()){
+			numberStudent++;
+			solution.addToSolution(student,listOfProjects.get(list.get(numberStudent)));
+		}
+		return solution;
 	}
 
+	public Solution HopcroftKarp(){
+		NetworkFlow flow = new NetworkFlow(numberOfStudents,numberProjects);
+		int id=0;
+		for(Student student:problema.getStudenti()){
+			id++;
+			for (Project project: student.getPreferinte()){
+				flow.addEdge(id,getIndexProject(project));
+			}
+		}
+		flow.hopcroftKarp();
+
+		return  transformToSolution(flow.getPairU());
+	}
 }

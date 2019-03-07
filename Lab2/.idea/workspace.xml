@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="badad9c5-5732-4352-a17e-319769f390a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ex1/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex1/Solver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex1/NetworkFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ex1/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex1/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ex1/Essay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex1/Essay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex1/Languages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex1/Languages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ex1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ex1/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex1/Problem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ex1/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex1/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex1/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex1/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex1/Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex1/Solver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ex1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex1/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/src/lab3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/src/lab3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/src/lab3/TravelMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/src/lab3/TravelMap.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,45 +30,73 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ex1/Student.java">
+            <entry file="file://$PROJECT_DIR$/src/ex1/Solver.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-7">
-                  <caret line="60" column="30" selection-start-line="60" selection-end-line="61" />
+                <state relative-caret-position="797">
+                  <caret line="111" selection-start-line="111" selection-end-line="111" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="method#setPreferinte#0;class#Student#0" expanded="true" />
+                    <element signature="e#469#554#0" expanded="true" />
+                    <element signature="e#469#686#0" expanded="true" />
+                    <element signature="e#689#911#0" expanded="true" />
+                    <element signature="e#689#1408#0" expanded="true" />
+                    <element signature="e#1411#1480#0" expanded="true" />
+                    <element signature="e#1411#1804#0" expanded="true" />
+                    <element signature="e#1807#2037#0" expanded="true" />
+                    <element signature="method#HopcroftKarp#0;class#Solver#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ex1/Main.java">
+            <entry file="file://$PROJECT_DIR$/src/ex1/Solution.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+                <state relative-caret-position="283">
+                  <caret line="28" selection-start-line="28" selection-end-line="28" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="docComment;class#Solution#0" expanded="true" />
+                    <element signature="docComment;field#students#0;class#Solution#0" expanded="true" />
+                    <element signature="docComment;field#typeSolution#0;class#Solution#0" expanded="true" />
+                    <element signature="docComment;method#Solution#0;class#Solution#0" expanded="true" />
+                    <element signature="method#Solution#0;class#Solution#0" expanded="true" />
+                    <element signature="docComment;method#addToSolution#0;class#Solution#0" expanded="true" />
+                    <element signature="method#addToSolution#0;class#Solution#0" expanded="true" />
+                    <element signature="docComment;method#toString#0;class#Solution#0" expanded="true" />
+                    <element signature="method#toString#0;class#Solution#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ex1/NetworkFlow.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="215">
+                  <caret line="87" column="25" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="25" />
+                  <folding>
+                    <element signature="method#aNetworkFlow#0;class#aNetworkFlow#0" expanded="true" />
+                    <element signature="e#461#462#0" expanded="true" />
+                    <element signature="e#470#471#0" expanded="true" />
+                    <element signature="method#bfs#0;class#aNetworkFlow#0" expanded="true" />
+                    <element signature="method#dfs#0;class#aNetworkFlow#0" expanded="true" />
+                    <element signature="method#hopcroftKarp#0;class#NetworkFlow#0" expanded="true" />
+                    <element signature="e#1745#1746#0" expanded="true" />
+                    <element signature="e#1763#1764#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/ex1/Solver.java">
+            <entry file="file://$PROJECT_DIR$/src/ex1/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="451">
-                  <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+                <state relative-caret-position="48">
+                  <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="docComment;method#Solver#0;class#Solver#0" expanded="true" />
-                    <element signature="method#Solver#0;class#Solver#0" expanded="true" />
-                    <element signature="docComment;method#projectsOf#0;class#Solver#0" expanded="true" />
-                    <element signature="method#projectsOf#0;class#Solver#0" expanded="true" />
-                    <element signature="docComment;method#isPossibleToAllocateProjects#0;class#Solver#0" expanded="true" />
-                    <element signature="method#isPossibleToAllocateProjects#0;class#Solver#0" expanded="true" />
-                    <element signature="method#getIndexProjrct#0;class#Solver#0" expanded="true" />
-                    <element signature="method#transformToNetworkFlow#0;class#Solver#0" expanded="true" />
-                    <element signature="method#isPossibleAMatching#0;class#Solver#0" expanded="true" />
-                    <element signature="method#fordFulkersonSolver#0;class#Solver#0" expanded="true" />
-                    <element signature="method#greadySolver#0;class#Solver#0" expanded="true" />
+                    <element signature="method#main#0;class#Main#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -71,25 +105,24 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ex1/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-7">
-                  <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-                </state>
-              </provider>
-            </entry>
-          </file>
+        <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/ex1/Solution.java">
+            <entry file="file://$PROJECT_DIR$/src/ex1/Solver.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="432">
-                  <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+                <state relative-caret-position="1299">
+                  <caret line="102" column="12" lean-forward="true" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="12" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="method#Solution#0;class#Solution#0" expanded="true" />
-                    <element signature="method#addToSolution#0;class#Solution#0" expanded="true" />
+                    <element signature="e#469#554#0" expanded="true" />
+                    <element signature="e#469#686#0" expanded="true" />
+                    <element signature="e#689#911#0" expanded="true" />
+                    <element signature="e#689#1408#0" expanded="true" />
+                    <element signature="e#1411#1480#0" expanded="true" />
+                    <element signature="e#1411#1804#0" expanded="true" />
+                    <element signature="method#getIndexProject#0;class#Solver#0" expanded="true" />
+                    <element signature="method#greadySolver#0;class#Solver#0" expanded="true" />
+                    <element signature="method#transformToSolution#0;class#Solver#0" expanded="true" />
+                    <element signature="method#HopcroftKarp#0;class#Solver#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -110,6 +143,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>out</find>
+      <find>pairv</find>
+      <find>add</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -119,30 +154,31 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ex1/Languages.java" />
         <option value="$PROJECT_DIR$/src/ex1/Topics.java" />
         <option value="$PROJECT_DIR$/src/ex1/Topics.java" />
-        <option value="$PROJECT_DIR$/src/ex1/Project.java" />
-        <option value="$PROJECT_DIR$/src/ex1/Project.java" />
+        <option value="$PROJECT_DIR$/src/ex1/Student.java" />
+        <option value="$PROJECT_DIR$/src/ex1/Student.java" />
         <option value="$PROJECT_DIR$/src/ex1/Application.java" />
         <option value="$PROJECT_DIR$/src/ex1/Essay.java" />
         <option value="$PROJECT_DIR$/src/ex1/Essay.java" />
-        <option value="$PROJECT_DIR$/src/ex1/Student.java" />
-        <option value="$PROJECT_DIR$/src/ex1/Student.java" />
+        <option value="$PROJECT_DIR$/src/ex1/Languages.java" />
         <option value="$PROJECT_DIR$/src/ex1/Problem.java" />
         <option value="$PROJECT_DIR$/src/ex1/Problem.java" />
-        <option value="$PROJECT_DIR$/src/ex1/Main.java" />
-        <option value="$PROJECT_DIR$/src/ex1/Main.java" />
-        <option value="$PROJECT_DIR$/src/ex1/Main.java" />
-        <option value="$PROJECT_DIR$/src/ex1/Main.java" />
+        <option value="$PROJECT_DIR$/src/ex1/Project.java" />
+        <option value="$PROJECT_DIR$/src/ex1/Project.java" />
+        <option value="$PROJECT_DIR$/src/ex1/NetworkFlow.java" />
         <option value="$PROJECT_DIR$/src/ex1/Solution.java" />
         <option value="$PROJECT_DIR$/src/ex1/Solver.java" />
+        <option value="$PROJECT_DIR$/src/ex1/Main.java" />
+        <option value="$PROJECT_DIR$/src/ex1/Main.java" />
+        <option value="$PROJECT_DIR$/src/ex1/Main.java" />
+        <option value="$PROJECT_DIR$/src/ex1/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="974" />
+    <option name="width" value="1282" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -151,6 +187,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,18 +211,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551732422991" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551965597385" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -198,7 +234,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Unnamed">
+    <configuration name="NetworkFlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex1.NetworkFlow" />
+      <module name="lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex1.Main" />
       <module name="lab2" />
@@ -206,6 +255,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NetworkFlow" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -230,8 +284,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4934896" visible="true" weight="0.0496" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4934896" visible="true" weight="0.07146667" />
       <window_info id="Structure" order="1" sideWeight="0.50651044" side_tool="true" weight="0.050666668" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -240,15 +295,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.06896552" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39916405" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.031347964" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39873418" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.037617553" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.30407524" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3030303" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3291536" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -262,7 +317,7 @@
       <window_info anchor="right" id="Key Promoter X" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4934896" visible="true" weight="0.17813334" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4934896" visible="true" weight="0.15946667" />
       <window_info id="Structure" order="1" sideWeight="0.50651044" side_tool="true" weight="0.050666668" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -271,7 +326,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28526646" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.09404389" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39916405" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -304,13 +359,6 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ex1/Languages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ex1/Topics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -318,95 +366,162 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex1/Project.java">
+    <entry file="file://$PROJECT_DIR$/src/ex1/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="265">
+          <caret line="42" column="65" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="65" />
+          <folding>
+            <element signature="docComment;class#Application#0" expanded="true" />
+            <element signature="docComment;field#language#0;class#Application#0" expanded="true" />
+            <element signature="docComment;method#Application#0;class#Application#0" expanded="true" />
+            <element signature="method#Application#0;class#Application#0" expanded="true" />
+            <element signature="docComment;method#getLanguage#0;class#Application#0" expanded="true" />
+            <element signature="docComment;method#setLanguage#0;class#Application#0" expanded="true" />
+            <element signature="method#toString#0;class#Application#0" expanded="true" />
+            <element signature="docComment;method#setDeadline#0;class#Application#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex1/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/ex1/Project.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="768">
+          <caret line="74" column="56" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
           <folding>
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
+            <element signature="docComment;class#Project#0" expanded="true" />
+            <element signature="docComment;field#name#0;class#Project#0" expanded="true" />
+            <element signature="docComment;field#deadline#0;class#Project#0" expanded="true" />
+            <element signature="docComment;field#id#0;class#Project#0" expanded="true" />
+            <element signature="docComment;method#Project#0;class#Project#0" expanded="true" />
+            <element signature="method#Project#0;class#Project#0" expanded="true" />
+            <element signature="docComment;method#getName#0;class#Project#0" expanded="true" />
+            <element signature="docComment;method#setName#0;class#Project#0" expanded="true" />
+            <element signature="docComment;method#getDeadline#0;class#Project#0" expanded="true" />
+            <element signature="docComment;method#setDeadline#0;class#Project#0" expanded="true" />
+            <element signature="docComment;method#getIdProject#0;class#Project#0" expanded="true" />
+            <element signature="docComment;method#equals#0;class#Project#0" expanded="true" />
+            <element signature="method#equals#0;class#Project#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ex1/Essay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        <state relative-caret-position="456">
+          <caret line="42" column="58" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="58" />
           <folding>
+            <element signature="docComment;class#Essay#0" expanded="true" />
+            <element signature="docComment;field#topic#0;class#Essay#0" expanded="true" />
+            <element signature="docComment;method#Essay#0;class#Essay#0" expanded="true" />
             <element signature="method#Essay#0;class#Essay#0" expanded="true" />
+            <element signature="docComment;method#getTopic#0;class#Essay#0" expanded="true" />
+            <element signature="docComment;method#setTopic#0;class#Essay#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex1/Languages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex1/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setPreferinte#0;class#Student#0" expanded="true" />
+            <element signature="method#toString#0;class#Student#0" expanded="true" />
+            <element signature="method#equals#0;class#Student#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ex1/Problem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="366">
+          <caret line="66" column="35" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Problem#0" expanded="true" />
+            <element signature="docComment;field#studenti#0;class#Problem#0" expanded="true" />
+            <element signature="docComment;field#matrixForNetworkFlow#0;class#Problem#0" expanded="true" />
+            <element signature="docComment;method#setStudenti#0;class#Problem#0" expanded="true" />
             <element signature="method#setStudenti#0;class#Problem#0" expanded="true" />
+            <element signature="docComment;method#toString#0;class#Problem#0" expanded="true" />
             <element signature="method#toString#0;class#Problem#0" expanded="true" />
+            <element signature="method#getProject#0;class#Problem#0" expanded="true" />
+            <element signature="docComment;method#getStudenti#0;class#Problem#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex1/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/ex1/NetworkFlow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="60" column="30" selection-start-line="60" selection-end-line="61" />
+        <state relative-caret-position="215">
+          <caret line="87" column="25" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setPreferinte#0;class#Student#0" expanded="true" />
+            <element signature="method#aNetworkFlow#0;class#aNetworkFlow#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="method#bfs#0;class#aNetworkFlow#0" expanded="true" />
+            <element signature="method#dfs#0;class#aNetworkFlow#0" expanded="true" />
+            <element signature="method#hopcroftKarp#0;class#NetworkFlow#0" expanded="true" />
+            <element signature="e#1745#1746#0" expanded="true" />
+            <element signature="e#1763#1764#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ex1/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        <state relative-caret-position="283">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Solution#0" expanded="true" />
+            <element signature="docComment;field#students#0;class#Solution#0" expanded="true" />
+            <element signature="docComment;field#typeSolution#0;class#Solution#0" expanded="true" />
+            <element signature="docComment;method#Solution#0;class#Solution#0" expanded="true" />
             <element signature="method#Solution#0;class#Solution#0" expanded="true" />
+            <element signature="docComment;method#addToSolution#0;class#Solution#0" expanded="true" />
             <element signature="method#addToSolution#0;class#Solution#0" expanded="true" />
+            <element signature="docComment;method#toString#0;class#Solution#0" expanded="true" />
+            <element signature="method#toString#0;class#Solution#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ex1/Solver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+        <state relative-caret-position="797">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;method#Solver#0;class#Solver#0" expanded="true" />
-            <element signature="method#Solver#0;class#Solver#0" expanded="true" />
-            <element signature="docComment;method#projectsOf#0;class#Solver#0" expanded="true" />
-            <element signature="method#projectsOf#0;class#Solver#0" expanded="true" />
-            <element signature="docComment;method#isPossibleToAllocateProjects#0;class#Solver#0" expanded="true" />
-            <element signature="method#isPossibleToAllocateProjects#0;class#Solver#0" expanded="true" />
-            <element signature="method#getIndexProjrct#0;class#Solver#0" expanded="true" />
-            <element signature="method#transformToNetworkFlow#0;class#Solver#0" expanded="true" />
-            <element signature="method#isPossibleAMatching#0;class#Solver#0" expanded="true" />
-            <element signature="method#fordFulkersonSolver#0;class#Solver#0" expanded="true" />
-            <element signature="method#greadySolver#0;class#Solver#0" expanded="true" />
+            <element signature="e#469#554#0" expanded="true" />
+            <element signature="e#469#686#0" expanded="true" />
+            <element signature="e#689#911#0" expanded="true" />
+            <element signature="e#689#1408#0" expanded="true" />
+            <element signature="e#1411#1480#0" expanded="true" />
+            <element signature="e#1411#1804#0" expanded="true" />
+            <element signature="e#1807#2037#0" expanded="true" />
+            <element signature="method#HopcroftKarp#0;class#Solver#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#Main#0" expanded="true" />
           </folding>
         </state>
       </provider>
