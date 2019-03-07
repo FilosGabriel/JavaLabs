@@ -1,5 +1,6 @@
 package lab3;
 
+import java.time.LocalDate;
 import java.time.LocalTime;
 
 public class Church extends Node implements Visitable { //nush sigur daca ar trebui sa-i pun si payable sau doar visitable
@@ -21,8 +22,9 @@ public class Church extends Node implements Visitable { //nush sigur daca ar tre
     }
 
     @Override
-    public String getOpeningHours() {
-        return this.getName() + " is open from " + this.openingHour.toString() + " to " + this.closingHour.toString();
+    public LocalTime getOpeningHours() {
+//        return this.getName() + " is open from " + this.openingHour.toString() + " to " + this.closingHour.toString();
+        return openingHour;
     }
 
     @Override
@@ -32,5 +34,9 @@ public class Church extends Node implements Visitable { //nush sigur daca ar tre
             this.closingHour = closes;
         }
         else System.out.println("Orele specificate nu sunt corecte");
+    }
+    @Override
+    public int compareTo(Visitable ob) {
+        return openingHour.compareTo(ob.getOpeningHours());
     }
 }

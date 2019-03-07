@@ -20,24 +20,20 @@ public class Museum extends Node implements Visitable, Payable {
 
     public Museum(String name, LocalTime openingHour, LocalTime closingHour) {
         super(name);
-        if (openingHour.compareTo(closingHour) <= 0)
-        {
+        if (openingHour.compareTo(closingHour) <= 0) {
             this.openingHour = openingHour;
             this.closingHour = closingHour;
-        }
-        else System.out.println("Orele specificate nu sunt valide");
+        } else System.out.println("Orele specificate nu sunt valide");
     }
 
     public Museum(String name, int entryFee, LocalTime openingHour, LocalTime closingHour) {
         super(name);
         if (entryFee >= 0) this.entryFee = entryFee;
         else System.out.println("Costul nu poate fii negativ");
-        if (openingHour.compareTo(closingHour) <= 0)
-        {
+        if (openingHour.compareTo(closingHour) <= 0) {
             this.openingHour = openingHour;
             this.closingHour = closingHour;
-        }
-        else System.out.println("Orele specificate nu sunt valide");
+        } else System.out.println("Orele specificate nu sunt valide");
     }
 
     @Override
@@ -53,16 +49,27 @@ public class Museum extends Node implements Visitable, Payable {
     }
 
     @Override
-    public String getOpeningHours() {
-        return this.getName() + " is open from " + this.openingHour + " to " + this.closingHour;
+    public LocalTime getOpeningHours() {
+//        return this.getName() + " is open from " + this.openingHour + " to " + this.closingHour;
+        return openingHour;
     }
+    @Override
+    public LocalTime getClosingHours() {
+//        return this.getName() + " is open from " + this.openingHour + " to " + this.closingHour;
+        return closingHour;
+    }
+
 
     @Override
     public void setOpeningHours(LocalTime opens, LocalTime closes) {
         if (opens.compareTo(closes) <= 0) {
             this.openingHour = opens;
             this.closingHour = closes;
-        }
-        else System.out.println("Orele specificate nu sunt corecte");
+        } else System.out.println("Orele specificate nu sunt corecte");
+    }
+
+    @Override
+    public int compareTo(Visitable ob) {
+        return openingHour.compareTo(ob.getOpeningHours());
     }
 }

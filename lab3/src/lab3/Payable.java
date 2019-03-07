@@ -1,6 +1,6 @@
 package lab3;
 
 public interface Payable {
-    int getEntryFee();
-    void setEntryFee(int fee);
+    public int getEntryFee();
+    public void setEntryFee(int fee);
 }
