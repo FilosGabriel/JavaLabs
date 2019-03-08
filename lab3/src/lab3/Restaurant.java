@@ -1,7 +1,17 @@
 package lab3;
 
+/**
+ * A class that represents a Restaurant node
+ */
+
 public class Restaurant extends Node implements Classifiable {
+    /**
+     * the cost of a meal at the restaurant
+     */
     private int mealCost = 0;
+    /**
+     * the rank/number of stars of the restaurant
+     */
     private int rank = 0;
 
     public Restaurant(String name) {

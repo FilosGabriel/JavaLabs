@@ -2,38 +2,70 @@ package lab3;
 
 import java.util.*;
 
+/**
+ * A class that represents a collection of nodes and the edges between them
+ */
+
 public class TravelMap {
+    /**
+     * The list of nodes that are part of the TravelMap object
+     */
     private List<Node> nodes=new ArrayList<Node>(100);
+    /**
+     * The list of edges between the nodes of the TravelMap object
+     */
     private List<Edge> edges=new ArrayList<Edge>(100);
-    private int nrOfNodes = 0; //nush cum sa adaug la final fara sa fac asta
+//    private int nrOfNodes = 0;
     private int nrOfEdges = 0;
 
+    /**
+     * Adds a node to the TravelMap
+     * @param node the node to be added in the TravelMap
+     */
     public void addNode(Node node)
     {
         this.nodes.add(node);
     }
 
-
-
+    /**
+     * Adds an edge to the TravelMap
+     * @param edge the edge to be added in the TravelMap
+     */
     public void addEdge(Edge edge)
     {
         this.edges.add(edge);
 //        this.edges[nrOfEdges] = edge;
-        nrOfEdges++;
+      nrOfEdges++;
     }
 
+    /**
+     * Creates and adds an edge that is bi-directional to the TravelMap
+     * @param n1 The first node of the edge
+     * @param n2 The second node of the edge
+     * @param weight The weight of the edge
+     */
     public void addEdge(Node n1, Node n2, int weight)
     {
         this.edges.add(new Edge(n1, n2, weight));
         nrOfEdges++;
     }
 
+    /**
+     * Creates and adds an edge that may be uni-directional or bi-directional to the TravelMap
+     * @param n1 The first node of the edge
+     * @param n2 The second node of the edge
+     * @param weight The weight of the edge
+     * @param twoWay false if the edge is uni-directional, true if it's bi-directional
+     */
     public void addEdge(Node n1, Node n2, int weight, boolean twoWay)
     {
-        this.edges.add(nrOfEdges,new Edge(n1, n2, weight, twoWay));
+        this.edges.add(new Edge(n1, n2, weight, twoWay));
         nrOfEdges++;
     }
 
+    /**
+     * @return A string of the sorted list of names of the nodes in the TravelMap
+     */
     public String getNodes()
     {
         Collections.sort(nodes,new Comparator<Node>() {
@@ -53,16 +85,19 @@ public class TravelMap {
             nodes += ", " + this.nodes.get(this.nodes.size()-1).getName();
         return nodes;
     }
+
+    /**
+     * Prints every node that is visitable and not payable sorted by their opening hour
+     */
     public void freeVisitable(){
         Comparator<Visitable> dateComparator = (h1, h2) -> h1.getOpeningHours().compareTo(h2.getOpeningHours());
         nodes.stream().filter(sc->sc instanceof Visitable ).filter(sc->!(sc instanceof Payable) ).sorted().forEach(System.out::println);
     }
 
+    /**
+     * Prints the average ticket price for every node in the TravelMap that is payable
+     */
     public void averageTicketPayable(){
         nodes.stream().filter(sc->sc instanceof Payable).mapToDouble(sc->((Payable) sc).getEntryFee()).average().stream().forEach(System.out::println);
     }
-
-    
-
-
 }

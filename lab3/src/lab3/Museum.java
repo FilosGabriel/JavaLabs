@@ -2,9 +2,22 @@ package lab3;
 
 import java.time.LocalTime;
 
+/**
+ * A class that represends a Museum node
+ */
+
 public class Museum extends Node implements Visitable, Payable {
+    /**
+     * the entry fee of the Museum
+     */
     private int entryFee;
+    /**
+     * the hour at which the museum opens
+     */
     private LocalTime openingHour = LocalTime.of(8, 0);
+    /**
+     * the hour at which the museum closes
+     */
     private LocalTime closingHour = LocalTime.of(16, 0);
 
     public Museum(String name) {

@@ -1,14 +1,37 @@
 package lab3;
 
+/**
+ * A class that represents the roads between nodes
+ */
+
 public class Edge {
-    private Node node1; //nush ce nume sa pun la variabile
+    /**
+     * The first node of the edge
+     */
+    private Node node1;
+    /**
+     * The second node of the edge
+     */
     private Node node2;
+    /**
+     * The weight of the edge
+     */
     private int weight;
+    /**
+     * false if the edge is uni-directional
+     * true if the edge is bi-directional
+     */
     private boolean twoWay;
 
+    /**
+     * A constructor for an edge that is bi-directional
+     * @param node1 the first node of the edge
+     * @param node2 the second node of the edge
+     * @param weight the weight of the edge
+     */
     public Edge(Node node1, Node node2, int weight) {
         //Verificam daca costul  e pozitiv
-        if (weight >= 0) {  //Ma gandeam ca nu e ok sa initializezi o muchie fara cost si de aia daca e negativ nu initializez deloc muchia
+        if (weight >= 0) {  //Nu initializez o muchie fara cost si de aia daca costul e negativ nu initializez deloc muchia
             this.node1 = node1;
             this.node2 = node2;
             this.weight = weight;
@@ -17,6 +40,13 @@ public class Edge {
         else System.out.println("Costul unei muchii nu poate fi negativ");
     }
 
+    /**
+     * A constructor for an edge that uses an argument to tell if it's uni-directional or bi-directional
+     * @param node1 the first node of the edge
+     * @param node2 the second node of the edge
+     * @param weight the weight of the edge
+     * @param twoWay a boolean that tells if the edge is bi-directional or uni-directional
+     */
     public Edge(Node node1, Node node2, int weight, boolean twoWay) {
         if (weight >= 0)
         {

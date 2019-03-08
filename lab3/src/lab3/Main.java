@@ -15,6 +15,7 @@ public class Main {
         map.addNode(v1);
         map.addNode(v2);
         map.addEdge(v1, v2, 15);
+        map.addEdge(v2, v3, 7, true);
         map.addNode(c);
         map.addNode(v3);
         System.out.println(map.getNodes());

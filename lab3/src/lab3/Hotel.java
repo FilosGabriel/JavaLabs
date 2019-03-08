@@ -1,5 +1,9 @@
 package lab3;
 
+/**
+ * A class that represents a Hotel node
+ */
+
 public class Hotel extends Node implements Classifiable {
     private int rank = 0;
     private int roomCost = 0; //nush daca e ok numit entryFee

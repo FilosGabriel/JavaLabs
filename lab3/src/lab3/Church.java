@@ -1,10 +1,19 @@
 package lab3;
 
-import java.time.LocalDate;
 import java.time.LocalTime;
 
-public class Church extends Node implements Visitable { //nush sigur daca ar trebui sa-i pun si payable sau doar visitable
+/**
+ * A class that represents a Church node
+ */
+
+public class Church extends Node implements Visitable {
+    /**
+     * the hour at which the Church opens
+     */
     private LocalTime openingHour = LocalTime.of(10, 0);
+    /**
+     * the hour at which the Church closes
+     */
     private LocalTime closingHour = LocalTime.of(12, 0);
 
     public Church(String name) {
@@ -25,6 +34,11 @@ public class Church extends Node implements Visitable { //nush sigur daca ar tre
     public LocalTime getOpeningHours() {
 //        return this.getName() + " is open from " + this.openingHour.toString() + " to " + this.closingHour.toString();
         return openingHour;
+    }
+
+    @Override
+    public LocalTime getClosingHours() {
+        return closingHour;
     }
 
     @Override
