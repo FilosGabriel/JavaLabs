@@ -12,7 +12,7 @@ public class Application extends Project {
     private Languages language;
 
     /**
-     * Initialize the aplication with his atribute
+     * Initialize the application with his attributes
      * @param name Name of the aplication project
      * @param deadline  Deadline of aplication project
      * @param language Language of the aplication project
@@ -20,8 +20,6 @@ public class Application extends Project {
     public Application(String name, LocalDate deadline, Languages language) {
         super(name, deadline);
         this.language = language;
-        id=idProject;
-        idProject++;
     }
 
     /**

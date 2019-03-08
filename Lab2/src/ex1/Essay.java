@@ -20,8 +20,7 @@ class Essay extends Project {
     public Essay(String name, LocalDate deadline, Topics topic) {
         super(name, deadline);
         this.topic = topic;
-        id=idProject;
-        idProject++;
+
     }
 
     /**
@@ -40,7 +39,7 @@ class Essay extends Project {
     }
 
     /**
-     *A method by which we get information about the essay
+     *A method by which we get information about the essay in string format
      * @return A string that contain information about essay
      */
     @Override

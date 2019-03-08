@@ -4,18 +4,29 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * A class than implements some methods for solving matching problem
+ */
 public class Solver {
+	/**
+	 * A class that represent problem
+	 */
 	private Problem problema;
-	static  int n = 0;
+	/**
+	 * A list of projects from problem
+	 */
 	private  List<Project> listOfProjects=new ArrayList<Project>();
-	private  List<Boolean> seen;
-//	private  boolean[][] matrixNetwork;
-	private  List<Boolean> matrixNetwork;
-	private List<Integer> match;
-
-	
+	/**
+	 * A list of project that we use for the greedy  algorithm
+	 */
 	private List<Integer> seenGreedy;
+	/**
+	 * Number of students
+	 */
 	private  int numberOfStudents;
+	/**
+	 * Number of project
+	 */
 	private  int numberProjects;
 	/**
 	 * @param inputProblem The problem class that contain students and projects
@@ -23,8 +34,8 @@ public class Solver {
 	Solver(Problem inputProblem){
 		problema=inputProblem;
 		numberOfStudents=inputProblem.getStudenti().length;
-		numberProjects=inputProblem.getProject().size();
-		listOfProjects=problema.getProject();
+		numberProjects=inputProblem.getProjects().size();
+		listOfProjects=problema.getProjects();
 	}
 
 	/**
@@ -53,6 +64,7 @@ public class Solver {
 	}
 
 	/**
+	 * Hall's Theorem applicated to verify if is possible to allocate all projects to students
 	 * @return True if  can be allocated all project else false
 	 */
 	public boolean isPossibleToAllocateProjects(){
@@ -70,6 +82,10 @@ public class Solver {
 		return  true;
 	}
 
+	/**
+	 * @param project A project from the list of projects of the problem
+	 * @return position in that  list
+	 */
 	private int getIndexProject(Project project) {
 		int index = 0;
 		for (Project project2 : listOfProjects){
@@ -83,6 +99,10 @@ public class Solver {
 		return  index;
 	}
 
+	/**
+	 * A  algorithm that solve the matching problem using greedy method
+	 * @return A solution for that problem
+	 */
 	public Solution greadySolver(){
 		Solution solution=new Solution("GreadySolver");
 		seenGreedy=new ArrayList<Integer>(Collections.nCopies(listOfProjects.size(),-1));
@@ -97,9 +117,14 @@ public class Solver {
 			}
 			i++;
 		}
-//		System.out.println(seenGreedy);
 		return  solution;
+
 	};
+
+	/**
+	 * @param list a list of projects
+	 * @return A solution class from the list
+	 */
 	private  Solution transformToSolution(List<Integer> list){
 		Solution solution=new Solution("HopcroftKarp");
 		int numberStudent=0;
@@ -110,17 +135,23 @@ public class Solver {
 		return solution;
 	}
 
-	public Solution HopcroftKarp(){
+
+	/**
+	 * This function transform a matching problem in a network flow problem
+	 * @return A solution for the matching problem
+	 */
+	public Solution hopcroftKarp(){
 		NetworkFlow flow = new NetworkFlow(numberOfStudents,numberProjects);
-		int id=0;
+		int numberStudent=0;
+//
 		for(Student student:problema.getStudenti()){
-			id++;
+			numberStudent++;
 			for (Project project: student.getPreferinte()){
-				flow.addEdge(id,getIndexProject(project));
+				flow.addEdge(numberStudent,getIndexProject(project));
 			}
 		}
 		flow.hopcroftKarp();
 
-		return  transformToSolution(flow.getPairU());
+		return  transformToSolution(flow.getPairStudent());
 	}
 }
