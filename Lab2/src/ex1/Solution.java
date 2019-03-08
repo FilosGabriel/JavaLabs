@@ -26,8 +26,6 @@ public class Solution {
 //
 	public Solution(String solutionType){typeSolution=solutionType;}
 
-
-
 	/**
 	 * Add a student and his project to solution
 	 * @param student A student
@@ -38,15 +36,15 @@ public class Solution {
 		projects.add(proiect);
 	}
 
-
 	/**
-	 * @return A string that contain the solutin
+	 * A method by which we get information about the Solution
+	 * @return A string that contain the solution
 	 */
 	@Override
 	public  String toString(){
 		StringBuffer result=new StringBuffer();
 		result.append(typeSolution);
-		result.append(" solution for problem is:\n[");
+		result.append(" Solution for problem is:\n[");
 		for(int i=0;i<students.size();i++){
 			result.append("(").append(students.get(i).getName()).append(",").append(projects.get(i).getName()).append("),");
 		}

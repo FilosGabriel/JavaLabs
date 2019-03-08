@@ -11,7 +11,8 @@ class Problem {
 	/**
 	 * A list of students for matching problem
 	 */
-	private Student[] studenti;
+	private  List<Student> studenti=new ArrayList<>();
+//	private Student[] studenti;
 	/**
 	 * A matrix representation of matching problem  in the form of a network flow
 	 */
@@ -22,23 +23,26 @@ class Problem {
 	 * @param args Students
 	 */
 	public  void setStudenti(Student ... args){
-		studenti=new Student[args.length];
-		boolean uniqueStudent;
+//		studenti=new Student[args.length];
+		boolean uniqueStudent=true;
 		for (int index = 0; index < args.length; index++)
 		{
 			uniqueStudent = true;
 //			verify if it was been added previously
 			for (int j=0; j<index; j++)
+			{
 //				//verify that the students are different
-				if (args[index].equals(args[j]))
-				{
-//					Set the uniqueStudent false if is the same student and print a notification about that
+				if (args[index].equals(args[j])) {
+//					Set the uniqueStudent false if is the same student in list and print a notification about that
 					uniqueStudent = false;
 					System.out.println("!!!The student " + args[index].getName() + " is duplicated for problem " + args[index].getName() + ", so is ignored!!!");
+					break;
 				}
-//			Add to Student list if it has been added
-			if (uniqueStudent)
-				studenti[index] = args[index];
+			}
+//			Add to Student list if it has not been added
+			if (uniqueStudent) {
+				studenti.add(args[index]);
+			}
 		}
 	}
 
@@ -67,8 +71,9 @@ class Problem {
 	 * A method by which we get the list of projects associated with the matching problem
 	 * @return A list of unique projects
 	 */
-	public List<Project> getProject() {
+	public List<Project> getProjects() {
 		List<Project> preferedProjects=new ArrayList<Project>();
+//		For every student , we verify if his projects has been  added
 		for (Student student:studenti) {
 				if(student!=null){
 					for (Project proiect:student.getPreferinte()) {
@@ -93,7 +98,7 @@ class Problem {
 	 * @return A list of students
 	 */
 	public  Student[] getStudenti(){
-		return studenti;
+		return studenti.stream().toArray(Student []::new);
 	}
 
 

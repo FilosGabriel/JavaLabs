@@ -17,8 +17,6 @@ public abstract class Project {
 	/**
 	 * Id of the project
 	 */
-	protected int id;
-	protected static int idProject=0;
 
 	/**
 	 * Initialize the class project with his attributes
@@ -61,18 +59,12 @@ public abstract class Project {
 	public void setDeadline(LocalDate deadline) {
 		this.deadline = deadline;
 	}
-	/**
-	 * A method by witch we get the id of the project
-	 * @return   Id  of the project
-	 */
-	protected int getIdProject(){return idProject;}
 
 	/**
 	 * A method that compare two object of type project
 	 * @param project Another project class that we want to compare
 	 * @return true if is the same project and false otherwise
 	 */
-	//Overriding equals() to compare two Project objects
 	@Override
 	public boolean equals(Object project) {
 		// If the object is compared with itself then return true
@@ -80,11 +72,11 @@ public abstract class Project {
 			return true;
 		}
 		 /* Check if o is an instance of Project or not
-          "null instanceof [type]" also returns false */
+          "null instanceof Project" also returns false */
 		if (!(project instanceof Project)) {
 			return false;
 		}
-		// typecast o to Complex so that we can compare data members
+		// typecast o to Project so that we can compare data members
 		Project project1 = (Project) project;
 		// Compare the data members and return accordingly
 		return this.name.equals(project1.getName());
