@@ -39,6 +39,7 @@ public class Museum extends Node implements Visitable, Payable {
         } else System.out.println("Orele specificate nu sunt valide");
     }
 
+
     public Museum(String name, int entryFee, LocalTime openingHour, LocalTime closingHour) {
         super(name);
         if (entryFee >= 0) this.entryFee = entryFee;

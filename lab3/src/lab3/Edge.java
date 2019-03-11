@@ -23,22 +23,6 @@ public class Edge {
      */
     private boolean twoWay;
 
-    /**
-     * A constructor for an edge that is bi-directional
-     * @param node1 the first node of the edge
-     * @param node2 the second node of the edge
-     * @param weight the weight of the edge
-     */
-    public Edge(Node node1, Node node2, int weight) {
-        //Verificam daca costul  e pozitiv
-        if (weight >= 0) {  //Nu initializez o muchie fara cost si de aia daca costul e negativ nu initializez deloc muchia
-            this.node1 = node1;
-            this.node2 = node2;
-            this.weight = weight;
-            this.twoWay = true;
-        }
-        else System.out.println("Costul unei muchii nu poate fi negativ");
-    }
 
     /**
      * A constructor for an edge that uses an argument to tell if it's uni-directional or bi-directional
@@ -58,6 +42,20 @@ public class Edge {
         else System.out.println("Costul unei muchii nu poate fii negativ");
     }
 
+
+    /**
+     * A constructor for an edge that is bi-directional
+     * @param node1 the first node of the edge
+     * @param node2 the second node of the edge
+     * @param weight the weight of the edge
+     */
+    public Edge(Node node1, Node node2, int weight) {
+        this(node1, node2, weight, true);
+    }
+
+    /**
+     * @return the first node of the edge
+     */
     public Node getNode1() {
         return node1;
     }

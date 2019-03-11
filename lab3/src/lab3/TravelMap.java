@@ -87,6 +87,32 @@ public class TravelMap {
     }
 
     /**
+     * @return A string of the list of edges in the TravelMap
+     */
+    public String getEdges()
+    {
+        String edges = new String("Edge  \t\t\t\t\t\t\t|\t  Cost \n");
+        for (Edge edge:this.edges)
+        {
+            edges += edge.getNode1().getName();
+            if (edge.isTwoWay())
+                edges += " ↔ ";
+            else
+                edges += " → ";
+            edges += edge.getNode2().getName() + " | " + edge.getWeight() + "\n";
+        }
+        return edges;
+    }
+
+    @Override
+    public String toString()
+    {
+        String map = new String();
+        map += this.getNodes() + "\n";
+        map += this.getEdges();
+        return map;
+    }
+    /**
      * Prints every node that is visitable and not payable sorted by their opening hour
      */
     public void freeVisitable(){
