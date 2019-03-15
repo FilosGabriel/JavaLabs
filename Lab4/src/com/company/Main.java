@@ -13,7 +13,7 @@ public class Main {
     {
         try {
 
-            Catalog catalog=new Catalog("C:\\Dev_file\\facultate\\java\\Lab4\\src\\com\\company\\graphs\\");
+            Catalog catalog=new Catalog("C:\\Dev_file\\facultate\\java\\  Lab4\\src\\com\\company\\graphs\\");
             catalog.add (new Graph("K2", "complete\\k2.tgf", "complete\\view\\k2.png"));
             catalog.add (new Graph("Petersen", "special/petersen.tgf", "d:/ag/agr1.pdf"));
             catalog.open("K2",false);
