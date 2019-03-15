@@ -16,12 +16,12 @@ public class Catalog extends  CatalogIO {
 	}
 	public void add(Graph graph)
 	{
-		String key=graph.getName();
 		catalog.put(graph.getName(),graph);
 
 	}
 	public void list()
 	{
+		System.out.println("\n");
 		for (Map.Entry<String ,Graph> entry:catalog.entrySet()) {
 			System.out.println("Nume :"+entry.getValue().getName());
 			System.out.println("Definitia :"+entry.getValue().getPathDefinition());
