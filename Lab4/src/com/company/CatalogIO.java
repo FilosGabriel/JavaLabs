@@ -10,11 +10,25 @@ import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * A class that represent IO of catalog
+ */
 public class CatalogIO extends ToolsIO {
+	/**
+	 * A hashMap that contain  graphs
+	 */
 	protected Map<String, Graph> catalog=new HashMap<>();
+
+	/**
+	 * A path
+	 */
 	protected Path path;
 
-	public boolean save(String nameFile) {
+	/**
+	 * A function that save catalog
+	 * @param nameFile Name of  a file
+	 */
+	public void save(String nameFile) {
 
 
 		Path file= Paths.get(path +"\\"+nameFile);
@@ -61,10 +75,14 @@ public class CatalogIO extends ToolsIO {
 			System.out.println("Fisierul a fost scris cu succes.");
 
 		}
-		return true;
+
 	}
 
-	public boolean load(String nameFile)  {
+	/**
+	 * A function that load catalog from a file
+	 * @param nameFile Name of a file
+	 */
+	public void load(String nameFile)  {
 
 		FileInputStream fileInputStream=null;
 		ObjectInputStream inputStream=null;
@@ -108,9 +126,13 @@ public class CatalogIO extends ToolsIO {
 
 		}
 
-		return true;
 	}
 
+	/**
+	 * A function that open description or image of a graph
+	 * @param name Name of a graph
+	 * @param switchMod 1 for photo and 0 for text file
+	 */
 	public void open(String name,boolean switchMod)  {
 		File file=null;
 //		int mod=switchMod?1:0;
@@ -146,6 +168,10 @@ public class CatalogIO extends ToolsIO {
 
 
 	}
+
+	/**
+	 * @param name Name of a graph
+	 */
 	public void open(String name)
 	{
 		open(name,true);
