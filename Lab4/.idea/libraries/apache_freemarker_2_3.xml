@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="apache-freemarker-2.3">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/src/com/company/apache-freemarker-2.3.28-bin" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/src/com/company/apache-freemarker-2.3.28-bin/documentation/_html/api" />
+    </JAVADOC>
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/src/com/company/apache-freemarker-2.3.28-bin" recursive="false" />
+  </library>
+</component>
