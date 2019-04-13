@@ -9,15 +9,7 @@ import java.time.temporal.Temporal;
  */
 
 public interface Visitable extends Comparable<Visitable> {
-    /**
-     * @return the opening hour of an object from a class that implements Visitable
-     */
-    LocalTime getOpeningHours();
 
-    /**
-     * @return the closing hour of an object from a class that implements Visitable
-     */
-    LocalTime getClosingHours();
 
     /**
      * @param o an object that implements Visitable
@@ -26,10 +18,12 @@ public interface Visitable extends Comparable<Visitable> {
     @Override
     int compareTo(Visitable o);
 
-    public default void setOpeningHours(LocalTime opens, LocalTime closes){
-//        this.openingHour = openingHour;
-//        this.closingHour = closingHour;
-    } //
+    default LocalTime getOpeningHours(){
+        return  LocalTime.of(9,30);
+    }
+    default LocalTime getClosingHours(){
+        return  LocalTime.of(20,0);
+    }
 
     /**
      * @param location A location we want to find the duration

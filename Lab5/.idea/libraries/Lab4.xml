@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Lab4">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../Lab4" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/../Lab4/out/production/Lab4/com/company/apache-freemarker-2.3.28-bin/documentation/_html/api" />
+      <root url="file://$PROJECT_DIR$/../Lab4/out/production/Lab4/com/company/commons-compress-1.18/apidocs" />
+      <root url="file://$PROJECT_DIR$/../Lab4/out/production/Lab4/com/company/poi-4.0.1/docs/apidocs/dev" />
+      <root url="file://$PROJECT_DIR$/../Lab4/src/com/company/apache-freemarker-2.3.28-bin/documentation/_html/api" />
+      <root url="file://$PROJECT_DIR$/../Lab4/src/com/company/commons-compress-1.18/apidocs" />
+      <root url="file://$PROJECT_DIR$/../Lab4/src/com/company/poi-4.0.1/docs/apidocs/dev" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../Lab4/src" />
+    </SOURCES>
+  </library>
+</component>

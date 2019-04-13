@@ -236,6 +236,11 @@ public class TravelMap {
 				path.add(nodes.get(nodes.size() - saveNode));
 			}
 		}
+
+		for(Node it:path)
+		{
+			System.out.println(it.getName());
+		}
 		return path;
 	}
 

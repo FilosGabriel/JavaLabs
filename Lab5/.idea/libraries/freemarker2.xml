@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="freemarker2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Lab4/out/production/Lab4/com/company/apache-freemarker-2.3.28-bin/freemarker.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

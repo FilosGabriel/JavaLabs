@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="ooxml-lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Lab4/src/com/company/poi-4.0.1/ooxml-lib/curvesapi-1.05.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Lab4/src/com/company/poi-4.0.1/ooxml-lib/xmlbeans-3.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

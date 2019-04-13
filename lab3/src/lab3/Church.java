@@ -41,7 +41,6 @@ public class Church extends Node implements Visitable {
         return closingHour;
     }
 
-    @Override
     public void setOpeningHours(LocalTime opens, LocalTime closes) {
         if (opens.compareTo(closes) <= 0) {
             this.openingHour = opens;
@@ -49,7 +48,7 @@ public class Church extends Node implements Visitable {
         }
         else System.out.println("Orele specificate nu sunt corecte");
     }
-    @Override
+
     public int compareTo(Visitable ob) {
         return openingHour.compareTo(ob.getOpeningHours());
     }

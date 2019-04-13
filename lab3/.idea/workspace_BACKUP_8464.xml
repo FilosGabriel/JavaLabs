@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b8ecbc46-fdd5-4473-9dc8-7d91ba48b4bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/allclasses-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/allclasses.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/allpackages-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/element-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/ex1/Application.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/ex1/Essay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/ex1/Languages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/ex1/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/ex1/Problem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/ex1/Project.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/ex1/Solution.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/ex1/Solver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/ex1/Student.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/ex1/Topics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/ex1/class-use/Application.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/ex1/class-use/Essay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/ex1/class-use/Languages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/ex1/class-use/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/ex1/class-use/Problem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/ex1/class-use/Project.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/ex1/class-use/Solution.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/ex1/class-use/Solver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/ex1/class-use/Student.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/ex1/class-use/Topics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/ex1/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/ex1/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/ex1/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/index-files/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/index-files/index-10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/index-files/index-11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/index-files/index-12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/index-files/index-13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/index-files/index-14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/index-files/index-15.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/index-files/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/index-files/index-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/index-files/index-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/index-files/index-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/index-files/index-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/index-files/index-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/index-files/index-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/index-files/index-9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/external/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/jquery-migrate-3.0.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/jquery-ui.structure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/jquery-ui.structure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/jszip-utils/dist/jszip-utils-ie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/jszip-utils/dist/jszip-utils-ie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/jszip-utils/dist/jszip-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/jszip-utils/dist/jszip-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/jszip/dist/jszip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/jquery/jszip/dist/jszip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/member-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/package-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/resources/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/resources/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/doc/type-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/src/ex1/NetworkFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/src/ex1/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/src/ex1/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/src/ex1/Essay.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/src/ex1/Essay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/src/ex1/Languages.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/src/ex1/Languages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/src/ex1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/src/ex1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/src/ex1/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/src/ex1/Problem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/src/ex1/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/src/ex1/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/src/ex1/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/src/ex1/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/src/ex1/Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/src/ex1/Solver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/src/ex1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/src/ex1/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab3/TravelMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab3/TravelMap.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab3/Visitable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab3/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab3/Payable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lab3/TravelMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#addNode#0;class#TravelMap#0" expanded="true" />
+                <element signature="method#addEdge#0;class#TravelMap#0" expanded="true" />
+                <element signature="method#addEdge#1;class#TravelMap#0" expanded="true" />
+                <element signature="method#addEdge#2;class#TravelMap#0" expanded="true" />
+                <element signature="method#getNodes#0;class#TravelMap#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab3/Edge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="method#Edge#0;class#Edge#0" expanded="true" />
+                <element signature="method#Edge#1;class#Edge#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab3/Museum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
+              <folding>
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="method#Museum#1;class#Museum#0" expanded="true" />
+                <element signature="method#Museum#2;class#Museum#0" expanded="true" />
+                <element signature="method#Museum#3;class#Museum#0" expanded="true" />
+                <element signature="e#1373#1374#0" expanded="true" />
+                <element signature="e#1409#1410#0" expanded="true" />
+                <element signature="method#setEntryFee#0;class#Museum#0" expanded="true" />
+                <element signature="method#getOpeningHours#0;class#Museum#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab3/Hotel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding>
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="method#Hotel#1;class#Hotel#0" expanded="true" />
+                <element signature="method#Hotel#2;class#Hotel#0" expanded="true" />
+                <element signature="method#Hotel#3;class#Hotel#0" expanded="true" />
+                <element signature="e#1423#1424#0" expanded="true" />
+                <element signature="e#1454#1455#0" expanded="true" />
+                <element signature="method#setRoomCost#0;class#Hotel#0" expanded="true" />
+                <element signature="e#1675#1676#0" expanded="true" />
+                <element signature="e#1707#1708#0" expanded="true" />
+                <element signature="method#setNrOfRooms#0;class#Hotel#0" expanded="true" />
+                <element signature="e#1946#1947#0" expanded="true" />
+                <element signature="e#1978#1979#0" expanded="true" />
+                <element signature="method#setRank#0;class#Hotel#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab3/Restaurant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="method#Restaurant#1;class#Restaurant#0" expanded="true" />
+                <element signature="method#Restaurant#2;class#Restaurant#0" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
+                <element signature="method#setMealCost#0;class#Restaurant#0" expanded="true" />
+                <element signature="e#1069#1070#0" expanded="true" />
+                <element signature="e#1101#1102#0" expanded="true" />
+                <element signature="method#setRank#0;class#Restaurant#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab3/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <element signature="method#main#0;class#Main#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/lab3/TravelMap.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="896" />
+    <option name="y" value="34" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Compulsory" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="lab3.Main" />
+      <module name="lab3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8ecbc46-fdd5-4473-9dc8-7d91ba48b4bb" name="Default Changelist" comment="" />
+      <created>1551707099459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551707099459</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Am scris cam tot de la Compulsory, inafara de getNodes.&#10;Dar nu am testat destul.">
+      <created>1551713641088</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551713641088</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.17537314" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49946696" weight="0.3291536" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="2" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49946696" weight="0.3291536" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Codota" order="8" />
+      <window_info anchor="right" id="Key Promoter X" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17537314" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49946696" weight="0.3291536" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49946696" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Key Promoter X" order="0" />
+      <window_info anchor="right" id="Codota" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lab3/Edge.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4245" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab3/Visitable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab3/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab3/Payable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab3/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="method#Edge#0;class#Edge#0" expanded="true" />
+            <element signature="method#Edge#1;class#Edge#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab3/Museum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="method#Museum#1;class#Museum#0" expanded="true" />
+            <element signature="method#Museum#2;class#Museum#0" expanded="true" />
+            <element signature="method#Museum#3;class#Museum#0" expanded="true" />
+            <element signature="e#1373#1374#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+            <element signature="method#setEntryFee#0;class#Museum#0" expanded="true" />
+            <element signature="method#getOpeningHours#0;class#Museum#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab3/Hotel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="method#Hotel#1;class#Hotel#0" expanded="true" />
+            <element signature="method#Hotel#2;class#Hotel#0" expanded="true" />
+            <element signature="method#Hotel#3;class#Hotel#0" expanded="true" />
+            <element signature="e#1423#1424#0" expanded="true" />
+            <element signature="e#1454#1455#0" expanded="true" />
+            <element signature="method#setRoomCost#0;class#Hotel#0" expanded="true" />
+            <element signature="e#1675#1676#0" expanded="true" />
+            <element signature="e#1707#1708#0" expanded="true" />
+            <element signature="method#setNrOfRooms#0;class#Hotel#0" expanded="true" />
+            <element signature="e#1946#1947#0" expanded="true" />
+            <element signature="e#1978#1979#0" expanded="true" />
+            <element signature="method#setRank#0;class#Hotel#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab3/Restaurant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="method#Restaurant#1;class#Restaurant#0" expanded="true" />
+            <element signature="method#Restaurant#2;class#Restaurant#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="method#setMealCost#0;class#Restaurant#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
+            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="method#setRank#0;class#Restaurant#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab3/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="method#main#0;class#Main#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab3/TravelMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addNode#0;class#TravelMap#0" expanded="true" />
+            <element signature="method#addEdge#0;class#TravelMap#0" expanded="true" />
+            <element signature="method#addEdge#1;class#TravelMap#0" expanded="true" />
+            <element signature="method#addEdge#2;class#TravelMap#0" expanded="true" />
+            <element signature="method#getNodes#0;class#TravelMap#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

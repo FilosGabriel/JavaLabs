@@ -74,7 +74,7 @@ public class Museum extends Node implements Visitable, Payable {
     }
 
 
-    @Override
+
     public void setOpeningHours(LocalTime opens, LocalTime closes) {
         if (opens.compareTo(closes) <= 0) {
             this.openingHour = opens;
@@ -82,7 +82,7 @@ public class Museum extends Node implements Visitable, Payable {
         } else System.out.println("Orele specificate nu sunt corecte");
     }
 
-    @Override
+
     public int compareTo(Visitable ob) {
         return openingHour.compareTo(ob.getOpeningHours());
     }
