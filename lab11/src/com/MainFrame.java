@@ -6,6 +6,7 @@ import java.awt.*;
 public class MainFrame extends JFrame {
     ControlPanel controlPanel;
     DesignPanel designPanel;
+    JTextArea textArea;
     public MainFrame() {
         super("Swing Designer");
         init();
